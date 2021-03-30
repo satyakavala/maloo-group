@@ -67,6 +67,9 @@
                         //var percentComplete = (e.loaded / e.total) * 100;
                         //console.log(percentComplete + '% uploaded');
                         alert('Attachment created  Mail Sending....');
+			 $('#mail_form')[0].reset();
+                        $("#send_mail").show();
+                        $("#mail_form").hide();
                     }
                     else
                     {
